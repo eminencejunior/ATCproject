@@ -1,0 +1,12 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.myheader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dammy {
+    margin-left: 120px;
+}
