@@ -9,4 +9,22 @@
 }
 .dammy {
     margin-left: 120px;
+    color: grey;
+}
+.samson {
+    padding-left: 15px;
+    margin-top: 15px;
+    box-sizing: content-box;
+    width: 100%;
+}
+.acquire {
+    margin-top: 30px;
+    font-size: 15px;
+}
+.jnr {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: verdana;
 }
