@@ -14,9 +14,6 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
-body {
-    overflow-x: hidden;
-}
 .dammy {
     margin-left: 120px;
     color: grey;
@@ -49,7 +46,9 @@ button {
 }
 img {
     display: none;
-
+}
+.images {
+    display: flex;
 }
 .done {
     display: flex;
@@ -64,6 +63,9 @@ img {
     }
     img {
         display: flex;
+    }
+    .images {
+        word-spacing: 5px;
     }
     
 }
