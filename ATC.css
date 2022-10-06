@@ -1,6 +1,9 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+}
+a {
+text-decoration: none;
 }
 header {
     overflow-x: hidden;
@@ -10,6 +13,9 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+body {
+    overflow-x: hidden;
 }
 .dammy {
     margin-left: 120px;
@@ -43,4 +49,7 @@ button {
 }
 img {
     height: 250px;
+}
+@media only screen and (min-width: 500px) {
+    
 }
