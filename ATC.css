@@ -45,7 +45,7 @@ button {
   color: #fff;
   border-radius: 10px;
 }
-.img {
+.none {
   display: none;
 }
 .done {
@@ -65,9 +65,7 @@ button {
   .img {
     display: flex;
     height: 1200px;
-}
-.samson {}
-
+  }
 div {
     display: flex;
 }
@@ -76,5 +74,16 @@ div {
 }
 p {
     font-size: 100px;
+}
+button {
+  font-size: 60px;
+  padding: 15px 95px;
+  margin-top: 130px;
+}
+.none {
+  display: flex;
+  height: 70vh;
+  float: right;
+  margin-top: -600px;
 }
 }
