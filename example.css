@@ -1,0 +1,112 @@
+:root {
+    --blue: #1207AB;
+    --white: #ffffff;
+    --textColor: rgba(21, 12, 33, 0.59);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.none {
+    display: none;
+}
+
+.blue_BG {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkBtn {
+    border: 1px solid;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.navigation .linkBtn:hover,
+.linkBtn:hover {
+    border: 1px solid;
+    opacity: 0.5;
+}
+
+.paddingSides {
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.flexc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header .myname {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+@media only screen and (min-width:800px) {
+    .none {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .none_d {
+        display: none;
+    }
+
+    .notification {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .notification span a {
+        color: var(--white);
+    }
+
+    .notification span button {
+        background-color: inherit;
+        border: none;
+        color: #ffffff;
+        align-self: flex-start;
+        font-size: 20px;
+        margin-right: -45px;
+        margin-left: 1.5em;
+    }
+
+    .navigation {
+        width: 50%;
+    }
+
+    .navigation a {
+        color: var(--textColor);
+        font-weight: bold;
+    }
+
+    .navigation a:hover {
+        border-bottom: 5px solid var(--blue);
+    }
+}
