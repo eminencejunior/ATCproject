@@ -88,6 +88,9 @@ p {
   .acquire {
     font-size: 70px;
   }
+  .jee {
+    display: flex;
+  }
   .linkBtn {
     color: white;
     font-size: 20px;
