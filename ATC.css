@@ -132,6 +132,18 @@ p {
   div {
     display: flex;
   }
+  .gal {
+    margin-left: 90px;
+    margin-top: 90px;
+    opacity: 0.5;
+  }
+  .guy {
+    margin-top: 40px;
+    margin-right: 90px;
+  }
+  .gallery {
+     margin-right: 80px;
+  }
   button {
     font-size: 20px;
     padding: 12px 95px;
