@@ -37,6 +37,9 @@ header {
   margin-top: 50px;
   font-family: verdana;
 }
+.africa {
+  display: none;
+}
 button {
   margin-top: 25px;
   padding: 12px 90px;
@@ -75,6 +78,26 @@ p {
     color: white;
    padding: 15px;
   }
+  .africa {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin-top: -30px;
+    margin-left: 70px;
+  }
+  .tech {
+    margin-right: 150px;
+  }
+  .tech:hover {
+    border-bottom: 5px solid blue;
+    opacity: 0.5;
+  }
+  .contact {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px 45px;
+    margin-top: -15px;
+  }
   .flex {
     font-size: 30px;
   }
@@ -110,8 +133,8 @@ p {
     display: flex;
   }
   button {
-    font-size: 60px;
-    padding: 15px 95px;
+    font-size: 20px;
+    padding: 12px 95px;
     margin-top: 130px;
   }
   .none {
