@@ -165,10 +165,25 @@ p {
     height: 390px;
     opacity: 0.5;
   }
+  .rice {
+    font-family: verdana;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+  }
   button {
     font-size: 20px;
     padding: 12px 95px;
     margin-top: 130px;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px ;
+    color: black;
+    padding: 15px 85px;
   }
   .none {
     display: flex;
