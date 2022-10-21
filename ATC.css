@@ -8,9 +8,6 @@ a {
 body {
   overflow-x: hidden;
 }
-header {
-  overflow-x: hidden;
-}
 .myheader {
   box-sizing: content-box;
   display: flex;
@@ -133,9 +130,6 @@ p {
     border-radius: 5px;
     padding: 2px 35px 5px;
   }
-  header {
-    overflow-x: hidden;
-  }
   .img {
     display: flex;
     height: 1200px;
@@ -151,13 +145,17 @@ p {
   }
   .guy {
     display: flex;
+    height: 70px;
     margin-top: 40px;
-    margin-right: 90px;
+    margin-right: 80px;
   }
   .gallery {
     display: flex;
     height: 30px;
-     margin-right: 80px;
+     margin-right: 60px;
+  }
+  .bag {
+    margin-top: 70px;
   }
   button {
     font-size: 20px;
@@ -166,14 +164,18 @@ p {
   }
   .none {
     display: flex;
-    height: 70vh;
+    height: 700px;
     float: right;
-    margin-top: -600px;
+    margin-right: 100px;
+    margin-top: -650px;
   }
   .acquire {
     font-size: 20px;
   }
   .dammy {
     display: none;
+  }
+  .linkBtn:hover {
+      opacity: 0.5;
   }
 }
