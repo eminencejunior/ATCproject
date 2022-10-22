@@ -158,7 +158,9 @@ p {
   .bag {
     margin-top: 70px;
   }
-  .marginimg { 
+  .marginimg {
+    height: 350px;
+    transition: height 1s; 
     margin-left: 90px;
     border-radius: 10px;
   }
@@ -223,6 +225,11 @@ p {
  .element {
   float: right;
   margin-top: -260px;
+  animation: element 4s linear infinite;
+
+ }
+ @keyframes element {
+  
  }
  .start {
   margin-left: 15px;
