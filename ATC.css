@@ -185,7 +185,7 @@ p {
     color: black;
     border: 1px solid black;
     margin-top: 90px;
-    margin-left: 700px;
+    margin-left: 680px;
     padding: 15px 85px;
   }
   .mysite:hover {
@@ -210,6 +210,7 @@ p {
   .manelement {
     margin-top: 90px;
     padding-top: 30px;
+    padding-bottom: 150px;
     color: #fff;
     background-color: #1207ab;
   }
@@ -227,7 +228,6 @@ p {
   margin-left: 15px;
   background-color: blue;
   border: hidden;
-  
  }
  .son {
   font-size: 20px;
