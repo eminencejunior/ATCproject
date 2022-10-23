@@ -257,18 +257,24 @@ p {
  }
  .s {
   color: #f04f08;
+  margin-right: 10px;
  }
  .t {
-  color: #78c637
+  color: #78c637;
+  margin-right: 10px;
+
  }
  .e {
   color: lightblue;
  }
- .a {
-  color: #1502;
+ .b {
+    color: grey;
  }
  .m {
-  
+  color: #febc1a;
+ }
+ .k {
+  color: lightblue
  }
 }
  
