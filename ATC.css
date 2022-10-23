@@ -249,7 +249,6 @@ p {
  .discovery {
   margin-top: 50px;
   margin-left: 15px;
-  
  }
  .team {
   font-family: verdana;
@@ -257,7 +256,6 @@ p {
  .a {
   color: blue;
   margin-right: 10px;
-
  }
  .s {
   color: #f04f08;
@@ -281,6 +279,10 @@ p {
  .k {
    margin-right: 10px;
   color: lightblue
+ }
+ .o {
+  font-size: 30px;
+  margin-top: 30px;
  }
 }
  
