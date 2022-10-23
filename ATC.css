@@ -211,6 +211,7 @@ p {
   }
   .manelement {
     margin-top: 90px;
+    position: relative;
     padding-top: 30px;
     padding-bottom: 150px;
     color: #fff;
@@ -224,12 +225,16 @@ p {
   }
  .element {
   float: right;
+  position: absolute;
+  right: 15px;
   margin-top: -260px;
-  animation: element 4s linear infinite;
+  animation: element 4s linear;
 
  }
  @keyframes element {
-  
+  0%{right:-200%;}
+  100%{right:0}
+
  }
  .start {
   margin-left: 15px;
