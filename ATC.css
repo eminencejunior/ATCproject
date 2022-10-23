@@ -248,12 +248,16 @@ p {
  }
  .discovery {
   margin-top: 50px;
+  margin-left: 15px;
+  
  }
  .team {
   font-family: verdana;
  }
  .a {
   color: blue;
+  margin-right: 10px;
+
  }
  .s {
   color: #f04f08;
@@ -262,18 +266,20 @@ p {
  .t {
   color: #78c637;
   margin-right: 10px;
-
  }
  .e {
   color: lightblue;
  }
  .b {
     color: grey;
+  margin-right: 10px;
+
  }
  .m {
   color: #febc1a;
  }
  .k {
+   margin-right: 10px;
   color: lightblue
  }
 }
