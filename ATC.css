@@ -65,7 +65,7 @@ p {
 .ultra {
   display: none;
 }
-.gallery { 
+.gallery {
   height: 13px;
   margin-left: 20px;
   opacity: 0.5;
@@ -85,7 +85,7 @@ p {
     margin-top: 20px;
     background-color: #1207ab;
     color: white;
-   padding: 15px;
+    padding: 15px;
   }
   .africa {
     display: flex;
@@ -153,14 +153,14 @@ p {
   .gallery {
     display: flex;
     height: 30px;
-     margin-right: 60px;
+    margin-right: 60px;
   }
   .bag {
     margin-top: 70px;
   }
   .marginimg {
     height: 350px;
-    transition: height 1s; 
+    transition: height 1s;
     margin-left: 90px;
     border-radius: 10px;
   }
@@ -182,7 +182,7 @@ p {
     margin-top: 130px;
   }
   .mysite {
-    border-radius: 5px ;
+    border-radius: 5px;
     background-color: white;
     color: black;
     border: 1px solid black;
@@ -207,7 +207,7 @@ p {
     display: none;
   }
   .linkBtn:hover {
-      opacity: 0.5;
+    opacity: 0.5;
   }
   .manelement {
     margin-top: 90px;
@@ -223,93 +223,107 @@ p {
   .become {
     margin-left: 15px;
   }
- .element {
-  float: right;
-  position: absolute;
-  right: 15px;
-  margin-top: -260px;
-  animation: element 4s linear;
-
- }
- @keyframes element {
-  0%{right:-200%;}
-  100%{right:0;}
-
- }
- .start {
-  margin-left: 15px;
-  background-color: blue;
-  border: hidden;
- }
- .son {
-  font-size: 20px;
-  margin-top: 70px;
-  margin-left: 15px;
- }
- .discovery {
-  margin-top: 50px;
-  margin-left: 15px;
- }
- .team {
-  font-family: verdana;
- }
- .a {
-  color: blue;
-  margin-right: 10px;
- }
- .s {
-  color: #f04f08;
-  margin-right: 10px;
- }
- .t {
-  color: #78c637;
-  margin-right: 10px;
- }
- .e {
-  color: lightblue;
- }
- .b {
+  .element {
+    float: right;
+    position: absolute;
+    right: 15px;
+    margin-top: -260px;
+    animation: element 4s linear;
+  }
+  @keyframes element {
+    0% {
+      right: -200%;
+    }
+    100% {
+      right: 0;
+    }
+  }
+  .start {
+    margin-left: 15px;
+    background-color: blue;
+    border: hidden;
+  }
+  .son {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 15px;
+  }
+  .discovery {
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  .team {
+    font-family: verdana;
+  }
+  .a {
+    color: blue;
+    margin-right: 10px;
+  }
+  .s {
+    color: #f04f08;
+    margin-right: 10px;
+  }
+  .t {
+    color: #78c637;
+    margin-right: 10px;
+  }
+  .e {
+    color: lightblue;
+  }
+  .b {
     color: grey;
-  margin-right: 10px;
-
- }
- .m {
-  color: #febc1a;
- }
- .k {
-   margin-right: 10px;
-  color: lightblue
- }
- .o {
-  font-size: 30px;
-  margin-top: 30px;
- }
- .kids {
-  margin-left: 15px;
-  margin-top: 50px;
-  position: relative;
- }
- .robo {
-  width: 300px;
-  height: 200px;
-  margin-right: 130px;
-  border-radius: 15px;
-  position: absolute;
-  right: 200px;
-  animation: bag 4s linear;
- }
- @keyframes bag {
-  from {right:-200%}
-  to {right:0}
- }
- .kidswith {
-  width: 300px;
-  height: 200px;
-  margin-right: 130px;
- }
- .width {
-   height: 200px;
-  width: 300px;
-  border-radius: 15px;
- }
+    margin-right: 10px;
+  }
+  .m {
+    color: #febc1a;
+  }
+  .k {
+    margin-right: 10px;
+    color: lightblue;
+  }
+  .o {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .kids {
+    margin-left: 15px;
+    margin-top: 50px;
+    position: relative;
+  }
+  .robo {
+    width: 300px;
+    height: 200px;
+    margin-right: 130px;
+    border-radius: 15px;
+    position: absolute;
+    right: 150px;
+    animation: bag 4s linear;
+  }
+  @keyframes bag {
+    from {
+      right: -200%;
+    }
+    to {
+      right: 0;
+    }
+  }
+  .kidswith {
+    width: 300px;
+    height: 200px;
+    margin-right: 130px;
+    animation: bag2 4s linear;
+  }
+  .width {
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+  }
+}
+@keyframes bag2 {
+  from {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
