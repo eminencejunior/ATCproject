@@ -2,328 +2,80 @@
   padding: 0;
   margin: 0;
 }
-a {
-  text-decoration: none;
-}
-body {
-  overflow-x: hidden;
-}
-.myheader {
-  box-sizing: content-box;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.dammy {
-  margin-left: 100px;
-  color: grey;
-}
-.samson {
-  padding-left: 15px;
-  margin-top: 15px;
-  box-sizing: content-box;
-  width: 100%;
-}
-.acquire {
-  margin-top: 30px;
-  color: grey;
-}
-.jnr {
-  margin-left: 20px;
-  margin-right: 5px;
-  margin-top: 50px;
+.ultra {
+  background-color: #1207ab;
+  color: white;
   font-family: verdana;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-left: 40px;
 }
-.africa {
+i {
   display: none;
-}
-button {
-  margin-top: 25px;
-  padding: 12px 90px;
-  background-color: black;
-  color: #fff;
-  border-radius: 10px;
-  margin-bottom: 30px;
 }
 .none {
   display: none;
 }
-.done {
-  display: flex;
-  height: 220px;
-}
-body {
-  font-size: 100%;
-  overflow-x: hidden;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-}
-p {
-  font-size: 30px;
-}
-.ultra {
-  display: none;
-}
-.gallery {
-  height: 13px;
-  margin-left: 20px;
-  opacity: 0.5;
-}
-.guy {
-  height: 30px;
-  margin-left: 10px;
-  font-size: px;
-  opacity: 0.5;
-}
-@media only screen and (min-width: 600px) {
-  .done {
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    overflow-x: hidden;
+     margin-top: 30px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-bottom: 60px;
+  }
+  .desk {
     display: none;
+  }
+  .mobile {
+    display: flex;
+    width: 80px;
   }
   .ultra {
-    display: flex;
-    margin-top: 20px;
-    background-color: #1207ab;
-    color: white;
-    padding: 15px;
-  }
-  .africa {
-    display: flex;
-    justify-content: center;
-    color: grey;
-    margin-top: -30px;
-    margin-left: 70px;
-  }
-  .tech {
-    margin-right: 150px;
-  }
-  .tech:hover {
-    border-bottom: 5px solid blue;
-    opacity: 0.5;
-  }
-  .contact {
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 10px 45px;
-    margin-top: -15px;
-  }
-  .flex {
-    font-size: 30px;
-  }
-  .update {
-    font-size: 20px;
-    padding-left: 10px;
-  }
-  p {
-    font-size: 60px;
-  }
-  .acquire {
-    font-size: 70px;
-  }
-  .jee {
-    display: flex;
-  }
-  .linkBtn {
-    color: white;
-    font-size: 20px;
-    margin-left: 800px;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
-    padding: 2px 35px 5px;
-  }
-  .img {
-    display: flex;
-    height: 1200px;
-  }
-  div {
-    display: flex;
-  }
-  .gal {
-    font-size: 55px;
-    margin-left: 90px;
-    margin-top: 90px;
-    opacity: 0.5;
-  }
-  .guy {
-    display: flex;
-    height: 70px;
-    margin-top: 40px;
-    margin-right: 80px;
-  }
-  .gallery {
-    display: flex;
-    height: 30px;
-    margin-right: 60px;
-  }
-  .bag {
-    margin-top: 70px;
-  }
-  .marginimg {
-    height: 350px;
-    transition: height 1s;
-    margin-left: 90px;
-    border-radius: 10px;
-  }
-  .marginimg:hover {
-    height: 390px;
-    opacity: 0.5;
-  }
-  .rice {
-    font-family: verdana;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.5;
-  }
-  button {
-    font-size: 20px;
-    padding: 12px 95px;
-    margin-top: 130px;
-  }
-  .mysite {
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    margin-top: 90px;
-    margin-left: 680px;
-    padding: 15px 85px;
-  }
-  .mysite:hover {
-    color: grey;
-  }
-  .none {
-    display: flex;
-    height: 700px;
-    float: right;
-    margin-right: 100px;
-    margin-top: -650px;
-  }
-  .acquire {
-    font-size: 20px;
-  }
-  .dammy {
     display: none;
   }
-  .linkBtn:hover {
-    opacity: 0.5;
+  .width {
+    width: 60px;
   }
-  .manelement {
-    margin-top: 90px;
-    position: relative;
-    padding-top: 30px;
-    padding-bottom: 150px;
-    color: #fff;
-    background-color: #1207ab;
+  .kidswidth {
+    width: 60px;
   }
-  .quality {
-    margin-left: 15px;
+  img {
+    width: 80px;
   }
-  .become {
-    margin-left: 15px;
+  i {
+    margin-left: 70px;
+    font-size: 20px;
   }
-  .element {
-    float: right;
-    position: absolute;
-    right: 15px;
-    margin-top: -260px;
-    animation: element 4s linear;
-  }
-  @keyframes element {
-    0% {
-      right: -200%;
-    }
-    100% {
-      right: 0;
-    }
-  }
-  .start {
-    margin-left: 15px;
-    background-color: blue;
-    border: hidden;
+  .rice {
+    font-size: 10px;
   }
   .son {
-    font-size: 20px;
-    margin-top: 70px;
-    margin-left: 15px;
+    font-size: 10px;
   }
-  .discovery {
-    margin-top: 50px;
-    margin-left: 15px;
+  nav {
+    display: none;
   }
-  .team {
-    font-family: verdana;
+  p  {
+    font-size: 25px;
+    font-family: Georgia,serif;
+    color: #150c21;
+    margin-left: 20px;
   }
-  .a {
-    color: blue;
-    margin-right: 10px;
+  .acquire {
+    font-size: 12px;
+    margin-left: 20px;
   }
-  .s {
-    color: #f04f08;
-    margin-right: 10px;
-  }
-  .t {
-    color: #78c637;
-    margin-right: 10px;
-  }
-  .e {
-    color: lightblue;
-  }
-  .b {
-    color: grey;
-    margin-right: 10px;
-  }
-  .m {
-    color: #febc1a;
-  }
-  .k {
-    margin-right: 10px;
-    color: lightblue;
+  .money {
+  
   }
   .o {
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 15px;
   }
-  .kids {
-    margin-left: 15px;
-    margin-top: 50px;
-    position: relative;
-  }
-  .robo {
-    width: 300px;
-    height: 200px;
-    margin-right: 130px;
-    border-radius: 15px;
-    position: absolute;
-    right: 150px;
-    animation: bag 4s linear;
-  }
-  @keyframes bag {
-    from {
-      right: -200%;
-    }
-    to {
-      right: 0;
-    }
-  }
-  .kidswith {
-    width: 300px;
-    height: 200px;
-    margin-right: 130px;
-    animation: bag2 4s linear;
-  }
-  .width {
-    height: 200px;
-    width: 300px;
-    border-radius: 15px;
-  }
-}
-@keyframes bag2 {
-  from {
-    transform: translateX(-200%);
-  }
-  to {
-    transform: translateX(0%);
+  .become {
+    font-size: 10px;
   }
 }
