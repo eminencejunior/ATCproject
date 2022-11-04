@@ -34,7 +34,7 @@ i {
   }
   .mobile {
     display: flex;
-    width: 310px;
+    width: 280px;
     height: 260px;
     margin-left: 0px;
     margin-top: 30px;
@@ -53,16 +53,16 @@ i {
     margin-left: 20px;
   }
   i {
-    margin-left: 110px;
+    margin-left: 40px;
     font-size: 20px;
   }
   .pictures {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .gallery {
     height: 15px;
     opacity: 0.5;
-    width: 70px;
+    width: 60px;
   }
   .photos {
     margin-top: 20px;
@@ -70,7 +70,7 @@ i {
   }
   .guy {
     height:px;
-    width: 70px;
+    width: 20px;
     opacity: 0.5;
   }
   button {
@@ -82,13 +82,25 @@ i {
     background-color: #150c21;
     color: white;
     border-radius: 10px;
-    padding: 15px 105px;
+    padding: 15px 65px;
   }
   .rice {
     font-size: 10px;
+     margin-top: 30px;
+     opacity: 0.5;
+  }
+  .start {
+    padding: 15px 55px;
   }
   .son {
-    font-size: 10px;
+    font-size: 20px;
+    color: white;
+  }
+  .mysite {
+    padding: 20px 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
   }
   nav {
     display: none;
@@ -109,6 +121,20 @@ i {
     font-size: 15px;
   }
   .become {
-    font-size: 10px;
+    font-size: 20px;
+    font-style: none;
+    color: white;
+  }
+  .marginimg {
+    display: none;
+  }
+  .element {
+    width: 250px;
+  }
+  .manelement {
+    background-color: #1207ab;
+  }
+  .quality {
+    color: white;
   }
 }
