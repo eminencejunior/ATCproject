@@ -59,6 +59,20 @@ i {
   .pictures {
     margin-left: 20px;
   }
+  .gallery {
+    height: 15px;
+    opacity: 0.5;
+    width: 70px;
+  }
+  .photos {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .guy {
+    height:px;
+    width: 70px;
+    opacity: 0.5;
+  }
   button {
     margin-left: 20px;
   }
@@ -81,7 +95,7 @@ i {
   }
   p  {
     font-size: 30px;
-    font-family: verdana;
+    font-family: 'Nunito', sans-serif;
     color: #150c21;
     margin-left: 20px;
     margin-bottom: 30px;
@@ -90,9 +104,6 @@ i {
     font-size: 20px;
     margin-left: 20px;
     font-family: georgia,serif;
-  }
-  .money {
-    
   }
   .o {
     font-size: 15px;
