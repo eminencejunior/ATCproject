@@ -10,9 +10,6 @@
   padding-top: 15px;
   padding-left: 40px;
 }
-.fol {
-  display: none;
-}
 .none {
   display: none;
 }
@@ -50,10 +47,10 @@
   }
   img {
     width: 20px;
-    margin-left: 80px;
+    margin-left: 40px;
   }
   i {
-    margin-left: 130px;
+    margin-left: 100px;
     font-size: 20px;
   }
   .pictures {
@@ -62,7 +59,7 @@
   .gallery {
     height: 15px;
     opacity: 0.5;
-    width: 60px;
+    width: 40px;
   }
   .photos {
     margin-top: 20px;
@@ -70,7 +67,7 @@
   }
   .guy {
     height:px;
-    width: 60px;
+    width: 30px;
     opacity: 0.5;
   }
   button {
